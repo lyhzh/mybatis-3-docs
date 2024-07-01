@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/mybatis-3-docs/',
   title: 'MyBatis Docs',
   description: 'MyBatis SQL mapper framework for Java',
   themeConfig: {
